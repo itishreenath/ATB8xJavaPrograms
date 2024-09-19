@@ -11,7 +11,6 @@ public class Lab031_Operator_revision {
         // Relational Operators
         // > , < , >= <=, !, != , == (compare two value)
 
-
         // Logical Operators
         //  OR or and , || , && , !
 
