@@ -7,10 +7,10 @@ public class task004_200924 {
               Max → a,b,c → c
          */
         int a = 10, b = 20, c = 45;
+        System.out.printf("Ans1: ");
         int max = (a >= b && a >= c)? a : ((b >= c && b >= a)? b : c ) ;
         System.out.printf("Maximum number in %d, %d and %d is %d.",a,b,c,max);
         System.out.println();
-        // -------------------#######################-------------------------
         /*Q2: Ternary Operators to handle multiple conditions.
               Input → int score = 85
               String grade → ?
@@ -19,6 +19,7 @@ public class task004_200924 {
               score >= 70 → C
          */
         int score = 85;
+        System.out.printf("Ans2: ");
         String grade = (score >=90)? "A" : ((score >=80)? "B" : "C");
         System.out.printf("Your grade is %s.",grade);
         System.out.println();
@@ -30,6 +31,7 @@ public class task004_200924 {
                Use an if-else statement to classify the triangle.
          */
         int side1 = 10 , side2 = 20 , side3 = 10;
+        System.out.printf("Ans3: ");
         if(side1 == side2 && side2 == side3){
             System.out.println("This is an Equivalence triangle");
         } else if (side1 == side2 || side2 == side3 || side3 == side1){
@@ -42,20 +44,26 @@ public class task004_200924 {
                and for multiples of 5, print "Buzz."
                For numbers that are multiples of both 3 and 5, print "FizzBuzz."
          */
+        System.out.printf("Ans4: ");
         for(int i = 1 ; i <= 100 ; i++){
             if (i % 3 == 0 && i % 5 ==0) {
-                System.out.println("FizzBuzz.");
+                System.out.println("      FizzBuzz.");
             } else if (i % 5 == 0) {
-                System.out.println("Buzz.");
+                System.out.println("      Buzz.");
             } else if(i % 3 == 0){
-                System.out.println("Fizz");
+                System.out.println("      Fizz");
             } else {
-                System.out.println(i);
+                if(i == 1){
+                    System.out.println(i);
+                    continue;
+                }
+                System.out.println("      "+i);
             }
         }
         /* Q5: Write a program to find whether the year is a leap year or not.Find for input 2024.
          */
         int year = 2024;
+        System.out.printf("Ans5: ");
         if(year % 400 == 0 || (year % 4 == 0 && year % 100 != 0 )){
             System.out.printf("%d is a leap year.",year);
         } else {

@@ -10,6 +10,7 @@ public class task001_130924 {
            10 * 10 = 100
          */
         int num = 10;
+        System.out.printf("Ans1: ");
         System.out.printf("%d * %d = %d",num,1,num*1);
         System.out.println();
         System.out.printf("%d * %d = %d",num,2,num*2);
@@ -37,6 +38,7 @@ public class task001_130924 {
            Print - a+b, a-b, ab, a/b, a%b all the outputs.
          */
         double a = 34, b = 10;
+        System.out.printf("Ans2: ");
         System.out.println("Addition result = "+(a+b));
         System.out.println("Subtraction result = "+(a-b));
         System.out.println("Multiplication result = "+(a*b));
