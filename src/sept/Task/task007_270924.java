@@ -10,6 +10,7 @@ public class task007_270924 {
         Scanner sc = new Scanner(System.in); // New Object
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
+        System.out.println("Hi");
 
         
     }
