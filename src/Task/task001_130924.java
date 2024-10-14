@@ -1,4 +1,4 @@
-package sept.Task;
+package Task;
 
 public class task001_130924 {
     public static void main(String[] args) {
