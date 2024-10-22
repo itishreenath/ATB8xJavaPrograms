@@ -1,0 +1,12 @@
+package oct.ex211024_Wrapper_Exception;
+
+public class Lab139_Example3 {
+    public static void main(String[] args) {
+        // Unchecked - java.lang.NullPointerException
+        // jvm - at the Runtime -> Terminated the program.
+        System.out.println("Start");
+        String s1 = null;
+        System.out.println(s1.trim()); // Lab173_Exception.java:10
+        System.out.println("End");
+    }
+}
